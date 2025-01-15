@@ -33,7 +33,7 @@ export const Hero = () => {
                             </div>
                         </div>
                         <div className="col-xl-5 col-xxl-6 justifiy-content-center">
-                            <img className="img-fluid rounded-2 my-5" src="../public/hero.jpg" alt="Hero Image"/>
+                            <img className="img-fluid rounded-2 my-5" src="/hero.jpg" alt="Hero Image"/>
                         </div>
                     </div>
                 </div>
