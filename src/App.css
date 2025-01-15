@@ -1,0 +1,64 @@
+
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--background-color); 
+  transition: background-color 0.25s ease-in-out;
+}
+
+
+.white  {
+  color: var(--primary-text-color);
+  
+}
+
+.line {
+  color: white;
+}
+
+.action {
+  width: 100%;
+}
+
+a {
+  .material-icons-outlined{
+      font: 40px;
+  }
+ }
+
+ .material-icons-outlined {
+  vertical-align: middle;
+  line-height: auto;
+ }
+
+ .bi {
+  font-size: 25px;
+ }
+
+
+ .nav-link {
+  &:hover {
+      font-weight: bold;
+  }
+ }
+
+ #demo {
+  background-color: var(--background-color); 
+  }
+
+ #demo {
+  &:hover {
+      color: var(--primary-text-color); 
+  }
+ }
+
+
+ .navbar-brand > .material-icons-outlined {
+      font-size: 40px;
+  }
+
+
+
